@@ -1,0 +1,42 @@
+//Realizam contas matemáticas comuns:
+
+// Os básicos são:
++ // soma
+- // subtração
+* // multiplicação
+/ // divisão
+
+% // retorna o resto de uma divisão 
+
+int n1=10;
+int n2=3;
+console.WriteLine(n1 % n2); // o console vai retornar 1, o resto da divisão 
+
+
+
+++ // esse comando acrescenta 1 em qualquer variável
+
+int i=10;
+i++;
+console.WriteLine(i);    // vai retronar 11
+
+-- // diminui um número da variável
+
+
++= // adiciona um valor a uma variável já completa
+int num=5;
+num+=9;
+console.WriteLine(num); // vai retornar 9
+
+
+<= // menor ou igual
+>= // maior ou igual
+< //menor que
+> // maior que
+
+
+&& // represneta uma adição(and)
+|| // 
+! // representa não (não é igual (!=))
+
+
