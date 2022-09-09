@@ -1,0 +1,8 @@
+// A troca é realizada quabdo uma variável não é aceita para ser inserida no "writeLine".
+//Normalmente acontece quando a variável é int mas o console só mostra String!
+
+int numero=12;
+console.WriteLine=(Convert.ToString(numero));
+
+double myNUm=23.33;
+console.WritrLine=(convert.ToString(myNUm));
