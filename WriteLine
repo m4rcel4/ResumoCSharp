@@ -1,0 +1,7 @@
+WRITELINE
+// esse comando imprime o texto, entre aspas, na tela. PULA LINHA
+Console.WriteLine("Bom dia");
+
+WRITE
+// esse comando insere uma informação na tela SEM PULAR LINHA.
+Console.Write("vai ficar na mesma linha");
