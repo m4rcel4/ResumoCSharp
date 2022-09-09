@@ -1,0 +1,21 @@
+Os tipos mais usados de definição de variável
+
+INT= usado somenta para números inteiros, sem decimal.
+// definição de variável int, recebendo um valor
+int num= 10;
+console.WriteLine(num);
+
+DOUBLE= usado para números com decimais, guarda maiores valores.
+// definição de variável
+int numerozin=34.56;
+console.WriteLine(numerozin);
+
+STRING= usado para textos e grandes blocos de letras(nomes)
+//definição de variável
+string name="Mac";
+Console.WriteLine(name);
+
+CHAR= usada para somente um caractere de letras
+//definição
+char letra="k";
+console.WriteLine(letra);
