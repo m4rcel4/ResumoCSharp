@@ -1,0 +1,20 @@
+// o input, é um comando utilizado para que o programa aceite uma inserção feita pelo usuário
+//READLINE
+
+// o usuário vai inserir seu nome e o sistema vai salvar e retornar
+console.WriteLine("Insira o nome: ");
+string nome= Console.ReadLine();
+Console.WriteLine=("O nome é:" + nome);
+
+
+
+
+
+
+//CONVERSÃO DE INPUT
+console.writeLine("Insira sua idade: ");
+// Abaixo faço a conversão. A conversão tem que ser feita para INT  porque o "ReadLine" retorna STRING!!!!
+int idade=Converte.ToInt(Console.ReadLine());
+console.WriteLine(idade);
+
+
