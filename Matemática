@@ -1,0 +1,15 @@
+//Código usado para mostar o valor máximo:
+Console.WriteLine(Math.Max(5,10));
+// vai retornar 10
+
+-------------------------------------------------------------------------------------------------------------
+//Código usado para mostrar a rais quadrada de um número
+Console.WriteLine(Math.Sqrt(144));
+// vai retornar  16
+
+------------------------------------------------------------------------------------------------------------
+// comando	para aproximar do valor mais próximo
+Console.WriteLine(Math.Round(89.90));
+// vai retornar 90
+
+
