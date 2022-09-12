@@ -1,0 +1,49 @@
+//loop usado para determiadas condições e vezes
+
+// estrutura baásica
+for (instrução 1; instrução 2; instrução 3)
+{
+    // código
+}
+// instrução 1= repetida apenas uma vez no código
+// instrução 2= é a condição que faz o loop rodar
+// instrução 3= executada todas as vezes que o loop for executado
+
+for(int i=0, i<5, i++)
+{
+    console.WriteLine(i);
+}
+// (int i=0)= criou a variável, executada apenas uma vez
+// (i<5)= condição que i precisa ser menor que 5 para o loop rodar
+// (i++)= é executada toda vez no loop, fazendo i ganhar mais um valor, toda vez que rodar, e para quando o seu valor = 4
+
+
+--------------------------------------------------BRAEK--------------------------------------------------------------
+
+//break é usado junto com uma condição que faz o loop para de rodar
+
+
+for (int i=0; i<7; i++)
+{
+    if (i==5)
+    {
+        break;
+    }
+    console.WriteLine(i);
+
+}
+// o loop vai parar no 5 e não vai mostrar o restante dos números
+
+-------------------------------------------------CONTINUE------------------------------------------------------
+
+// esse comando usa uma condição dentro do for, e quando essa condição acontecer, ele a ignora e segue o loop
+
+for (int=o; int<7; i++)
+{
+  if (i==4)
+    {
+        continue;
+    }
+Console.WriteLine(i);
+}
+// ele vai ignorar o 4 e continuar o loop
