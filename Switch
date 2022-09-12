@@ -1,0 +1,42 @@
+// Comando usado para executar um bloco grande de códigos
+// exemplo de códigos
+
+int day=4;
+switch (day)
+{
+   case 1:
+     console.WriteLine("Segunda");
+    break;
+   
+   case 2 
+     console.WriteLine("Terça");
+   break;
+
+   caso 3;
+     console.WriteLine("Quarta ");
+   ...
+   // ele vai rodar o bloco de comandos até a condição (dia seja 4), sair do loop e ignorar o restante de comandos (o break faz isso)
+
+}
+
+---------------------------------------------------DEFAULT------------------------------------------------------
+
+int day=4;
+switch (day)
+{
+ case 6:
+ console.WriteLine("Today is saturday");
+ break;
+
+ case 7;
+ console.WriteLine("Today is tuesday");
+ break;
+ default:
+ 
+ console.WriteLine("Fora da semana");
+ break;
+
+
+}
+
+
