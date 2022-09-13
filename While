@@ -1,0 +1,23 @@
+// traduzido significa "enquanto"
+// é um loop de repetição enquanto a condição imposta for TRUE;
+
+int i=0;
+while (i<4)
+{
+    console>WriteLine(i);
+    i++;
+
+}
+// vai mostrar 4 vezes, depois disso ele para
+
+------------------------------------------DO WHILE--------------------------------------------
+// executa um bloco de comando antes da verificação, pois a condição de repetição foi colocada por último
+
+int i=0
+do 
+{
+    console.WriteLine(i);
+    i++;
+
+}
+while (i<5);
