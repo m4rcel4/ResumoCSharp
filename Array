@@ -1,18 +1,22 @@
-// variável para armazenar varis valores dentro dela
+// variável para armazenar varios valores dentro dela
 string cars[]= {"BMW","Volvo","Mazda"}
 
 ----------------------------------------COMPRIMENTO--------------------------------------------------
 string[] cars={"BMW","Volvo","Mazda"}
 console.WriteLine(cars.Length)
+// vai retornar 3
 
 --------------------------------------ACESSAR POSIÇÃO------------------------------------------------
 string[] cars={"BMW","Volvo","Mazda"}
+console.WriteLine(cars[2]);
+// vai retornar Mazda
 
+
+// comando que o zé mostrou pelo visual studio
 for (int i=0;i<cars.lenght;i++)
 {
 MessageBox.Show(cars[i]);
 }
-
 
 
 string[] nome= new string[5];
