@@ -1,0 +1,71 @@
+// comando usado com uma condição(true) e em seguida um comando para condição FALSE
+
+if (uma condição verdadeira)
+{
+  // faça alguma coisa
+}
+else (senao)
+{
+   // faça outra coisa 
+}
+
+--------------------------------------EXEMPLO--------------------------------------------------
+int time=22;
+if (time<18)
+{
+    console.WriteLine("Boa tarde");
+}
+else 
+{
+    console.WriteLine("Boa noite")
+}
+
+---------------------------------------ELSE IF----------------------------------------------
+
+// usado como um 'segundo'/'novo' if
+
+int time=22;
+ if (time<12)
+ {
+    console.WriteLine("Bom dia");
+
+ }
+ else if (time<20)
+ {
+    console.WriteLine("boa tarde");
+ }
+ else
+ {
+   console.WriteLine("Boa noite");
+ }
+
+ // vai retornar boa noite
+
+ -------------------------------------------ABREVIAÇÃO-------------------------------------------
+ 
+ variável= (condição)? expression TRUE : expression FALSE;
+
+// exemplos
+
+ int time=20;
+ string result= (time<18) ? "good day" : "good nigth";
+ console.WriteLine(result);
+
+
+ ----------------------------------------EXERCÍCIO---------------------------------------------------
+
+ //print "yes" if x is equal to y, otherwise print "no"
+ 
+ int x=10;
+ int y=2;
+
+ if (x==y)
+ 
+ {
+    console.WriteLine("Yes");
+ }
+ else 
+ {
+   console.WriteLine("no");
+ }
+
