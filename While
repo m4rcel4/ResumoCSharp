@@ -21,3 +21,19 @@ do
 
 }
 while (i<5);
+
+--------------------------------------WHILE COM IF-----------------------------------
+ // usada uma condição, que vai ser amaparada pelo comando break ou continue
+
+ int i=0;
+ while(i<7)
+ {
+    if (i==5)
+    {
+        i++; // i recebe mais um valor, vira 6 e continua o comando
+        continue;// o numero 5 vai ser ignorado e não vai aparecer na tela
+    }  
+
+    console.WriteLine(i);
+    i++ // recebe mais um valor para dar um fim no loop quando chegar a 6 (i<7)
+ }
